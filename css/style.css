@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.phraseInput {
+    width: 400px;
+    padding: 10px;
+    border: none;
+    background: #e1e1e1;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.btn {
+    padding: 10px 20px;
+    margin-top: 10px;
+    border: none;
+    background: #0E8388;
+    color: #fff;
+    border-radius: 2px;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.output {
+    width: 450px;
+    height: 450px;
+    margin-top: 20px;
+    background: #c1c1c1;
+    border-radius: 5px;
+    padding: 10px;
+    display: none;
+    font-family: 'Open Sans', sans-serif;
+    overflow-x: scroll;
+}
+
+.red {
+    background: #f53e3e;
+}
+
+.outputText {
+    margin: 10px;
+}
